@@ -1,0 +1,132 @@
+body {
+    font-family: 'Poppins';
+    background-color: #FBFBFB;
+}
+
+/* Banner CSS */
+
+.bg-cover {
+    background-image:
+        linear-gradient(to bottom, rgba(157, 14, 14, 0) 2%, rgba(79, 7, 7, 0.8) 100%),
+        url("../../public/img/background.png");
+    width: 100%;
+    height: 400px;
+    background-position: center;
+}
+
+.circle-h {
+    background-color: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.logo-h {
+    font-size: 60px;
+    text-align: center;
+    padding: 12px;
+    font-weight: bold;
+}
+
+.line {
+    font-weight: bold;
+}
+
+.input1 {
+    border-radius: inherit;
+    font-size: 12px;
+    color: #636F88;
+}
+
+.selectbar {
+    max-width: 18%;
+}
+
+.input2 {
+    border-radius: inherit;
+    font-size: 12px;
+    color: #636F88;
+    background-color: #fff;
+    border-color: #fff;
+}
+
+.searchbar {
+    max-width: 33%;
+}
+
+/* Quick Searches CSS */
+
+.heading {
+    font-weight: bolder;
+    color: #192F60;
+}
+
+.subheading {
+    color: #8C96AB;
+    font-size: 16px;
+}
+
+.img-qs1 {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    margin-right: 40px;
+    box-shadow: 2px 4px 3px #cecdcd;
+}
+
+.l-box {
+    height: 151px;
+    width: 150px;
+}
+
+.r-box {
+    height: 140px;
+    width: 180px;
+    padding: 22px 22px;
+}
+
+.card-title {
+    font-size: 20px;
+    color: #192F60;
+    font-weight: bold;
+}
+
+.card-content {
+    color: #8C96AB;
+    font-size: 12px;
+    padding-top: 10px;
+}
+
+.suggestionBox {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 3px 0px 10px 0px;
+    width: 22rem;
+    margin: 37px 0 0px 0px;
+}
+
+.suggImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: initial;
+    margin: 10px 18px 0px -26px;
+}
+
+.suggHeading {
+    color: #192F60;
+    font-weight: 700;
+}
+
+.suggText {
+    color: #636F88;
+    font-size: 10px;
+    display: block;
+    margin: -17px 0px 8px 33px;
+}
